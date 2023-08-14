@@ -10,7 +10,7 @@ public class Main {
         ValidationService validationService = new ValidationService();
         String randomCode = "";
         try {
-            System.out.println("Input the length of the secret code:");
+            System.out.println("Input the length of the secret code: ");
 
             int secretCodeLength = validationService.getValidNumberFromInput(scanner.nextLine());
             System.out.println("Input the number of possible symbols in the code:");
