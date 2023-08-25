@@ -57,5 +57,5 @@ lesson-info.yaml
 /Bulls and Cows/*            # (*) abil - vali kõik (include), mis on kausta all
 !/Bulls and Cows/task/       # (!) abil - ära vali kaust (exclude)
 /Bulls and Cows/task/test/   # vali kaust (include)
-/gradle/
 
+/gradle/wrapper/
